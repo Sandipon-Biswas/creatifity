@@ -27,25 +27,44 @@
     text-align: center;
     margin-bottom: 10px;
   }
+  .card {
+    text-align: center !important;
+    margin: 0 2rem;
+  }
+  .card.text-center {
+    margin: 0 10rem;
+  }
 }
 @media only screen and (max-width: 768px) {
   html {
     font-size: 90%;
+  }
+  .card.text-center {
+    margin: 0 7rem;
   }
 }
 @media only screen and (max-width: 700px) {
   html {
     font-size: 87%;
   }
+  .card.text-center {
+    margin: 0 6rem;
+  }
 }
 @media only screen and (max-width: 640px) {
   html {
     font-size: 85%;
   }
+  .card.text-center {
+    margin: 0 5rem;
+  }
 }
 @media only screen and (max-width: 414px) {
   html {
     font-size: 83%;
+  }
+  .card.text-center {
+    margin: 0 1rem;
   }
 }
 @media only screen and (max-width: 380px) {
